@@ -7,9 +7,9 @@ export default function NavBar() {
                 <h2 className="text-lg font-mono hover:text-yellow-500 hover:text-xl transition-all duration-300">Expense Tracker</h2>
 
                 <ul className="ml-auto flex gap-4 items-center ">
-                    <li><a href="#" className="hover:text-yellow-500">Home</a></li>
-                    <li><a href="#" className="hover:text-yellow-500">About</a></li>
                     <li><a href="#" className="hover:text-yellow-500">Expenses</a></li>
+                    <li><a href="#" className="hover:text-yellow-500">About</a></li>
+                    <li><a href="#" className="hover:text-yellow-500">Refresh</a></li>
                 </ul>
             </nav>
         </>
